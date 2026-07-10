@@ -105,7 +105,6 @@ header .banner button:hover {
 main {
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid red;
   padding: 0 50px;
 }
 .speaker .section-title {
@@ -255,3 +254,54 @@ main {
   background: #15399b;
   color: #fff;
 }
+
+/* footer */
+footer{
+  background: #0D1B2A;
+  padding: 56px 115px;
+}
+footer .footer-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-item .social-link{
+  display: flex;
+  gap: 32PX;
+}
+footer .footer-item .social-link a{
+  color: #fff;
+  /* border: 3px solid coral; */
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 20px;
+}
+footer .footer-item .social-link a i{
+  font-size: 32px;
+}
+footer .footer-item .social-link .facebook,
+footer .footer-item .social-link .twitter,
+footer .footer-item .social-link .linkein{
+  color: #2563eb;
+}
+footer .footer-item .social-link .inatagram{
+  color: #2563eb;
+}
+footer .footer-item .social-link a:hover{
+  color: #2563eb;
+}
+footer hr{
+  margin: 40px 0;
+  border: none;
+  height: 2px;
+  background: #333333;
+}
+footer p{
+  color: #888888;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* margin: 23px 115px; */
