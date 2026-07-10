@@ -150,3 +150,108 @@ main {
   font-size: 14px;
   font-weight: 500;
 }
+
+/* secure-section */
+.secure-section {
+  /* border: 4px solid cadetblue; */
+}
+.secure-section .section-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 12px;
+}
+.secure-section p {
+  text-align: center;
+  color: var(--dark1);
+}
+.secure-section .secure-card {
+  margin: 48px 80px 80px 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.secure-section .secure-card .card {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+}
+.secure-section .secure-card .card h4 {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 400;
+}
+.secure-section .secure-card .card h4:first-child {
+  font-weight: 600;
+}
+.secure-section .secure-card .card h3 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.secure-section .secure-card .card hr {
+  margin: 20px 0;
+  border: none;
+  height: 2px;
+  background: #e5e7eb;
+}
+.secure-section .secure-card .card ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.secure-section .secure-card .card ul li::marker {
+  color: #2563eb;
+}
+.secure-section .secure-card .card button {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 11px 0;
+  border-radius: 8px;
+  background: none;
+  /* border: none; */
+}
+.secure-section .secure-card .card:first-child button {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+.secure-section .secure-card .card:nth-child(2) {
+  background: #0d1b2a;
+  color: #fff;
+}
+.secure-section .secure-card .card:nth-child(2) h4 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.secure-section .secure-card .card:nth-child(2) ul li {
+  color: rgba(255, 255, 255, 0.8);
+}
+.secure-section .secure-card .card:nth-child(2) h3 {
+  color: #fff;
+}
+/*  */
+.secure-section .secure-card .card:nth-child(2) h4:first-child {
+  color: #93c5fd;
+}
+.secure-section .secure-card .card:nth-child(2) hr{
+  background: rgba(255, 255, 255, 0.1);
+}
+.secure-section .secure-card .card:nth-child(2) button {
+  background: #2563eb;
+  border: 1px solid #2563eb;
+  color: #fff;
+}
+.secure-section .secure-card .card:nth-child(3) button{
+  border: 1px solid #0D1B2A;
+  color: #0D1B2A;
+}
+.secure-section .secure-card .card button:hover{
+  background: #15399b;
+  color: #fff;
+}
