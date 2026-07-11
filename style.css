@@ -253,6 +253,7 @@ main {
 .secure-section .secure-card .card button:hover{
   background: #15399b;
   color: #fff;
+  cursor: pointer;
 }
 
 /* footer */
