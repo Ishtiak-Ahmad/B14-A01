@@ -293,6 +293,8 @@ footer .footer-item .social-link a:hover{
 }
 footer hr{
   margin: 40px 0;
+  /* margin-bottom: 100px; */
+  margin-top: 100px;
   border: none;
   height: 2px;
   background: #333333;
