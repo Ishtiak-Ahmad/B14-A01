@@ -1,1 +1,1 @@
-Give me a relevant section for dev conference website
+focus on the figma file and make a new relevant section using only HTML3 and CSS3. and don't make reponsive code. The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).
